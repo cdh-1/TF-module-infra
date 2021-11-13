@@ -6,6 +6,4 @@ module "gcp-compute"{
   name = "gcp-vm-prod"
 }
 
-// resource "vpc-mod" {
-//   cidr_block = "172.40.0.0/16"
-// }
+ 
