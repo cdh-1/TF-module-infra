@@ -8,6 +8,6 @@ module "bigquery" {
   description                 = "make changes"
   project_id                  = "terraform-architecture"
   location                    = "US"
-  default_table_expiration_ms = 36000000000
+  default_table_expiration_ms = 3600000000
 
 }
