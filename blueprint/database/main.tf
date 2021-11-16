@@ -5,9 +5,9 @@ module "bigquery" {
   # insert the 7 required variables here
   dataset_id                  = "bigdata"
   dataset_name                = "dbdata"
-  description                 = "some description"
+  description                 = "make changes"
   project_id                  = "terraform-architecture"
   location                    = "US"
-  default_table_expiration_ms = 3600000
+  default_table_expiration_ms = 3600000000
 
 }
